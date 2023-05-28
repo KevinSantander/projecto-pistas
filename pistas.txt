@@ -1,5 +1,6 @@
-2,Cancion Juan,23mn,Juan,2/2/2
-3,Cancion Juan,23mn,Juan,2/2/2
+7,Cancion Juan,23mn,Juan,2/2/2
+8,Cancion Juan,23mn,Juan,2/2/2
+9,Cancion Juan,23mn,Juan,2/2/2
+6,Cancion Juan,23mn,Juan,2/2/2
+5,Cancion Juan,23mn,Juan,2/2/2
 4,Cancion Juan,23mn,Juan,2/2/2
-5,cancion hector,25mn,hector,5/5/5
-6,cancion kevin,26mn,kevin,6/6/6

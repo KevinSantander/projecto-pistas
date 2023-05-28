@@ -42,13 +42,13 @@ async function mostrarDatos(){
 
 async function eliminarFila(id){
 
-//Elimino del html la fila
+/*desde el html accedo al elemento/fila duespues al padre/tabla y
+desde el padre removemos la fila*/
   const fila = document.getElementById(id);
   const tabla = fila.parentNode;
   tabla.removeChild(fila);
 
-
-//Elimino un pista del archivo
+//Elimino un pista desde pistas.txt
   res = await fetch(`api/pista/eliminar/${id}`,
     {
       method : 'DELETE',

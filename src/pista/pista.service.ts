@@ -58,7 +58,7 @@ con appendFileSyc lo concatenamos no lo pisa.*/
     }
   }
   fs.writeFileSync('pistas.txt', listaPistas.join('\n'));
-  return {msj:"eliminado"}
+  return {msj:"Pista eliminada."}
  }
 
 }

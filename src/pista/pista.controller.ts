@@ -23,7 +23,7 @@ export class PistaController {
   }
 
   @Delete('eliminar/:id')
-  eliminarPista(@Param('id')id:string): string {
+  eliminarPista(@Param('id')id:any): any {
     return this.pistaService.delete(id);
   }
 
